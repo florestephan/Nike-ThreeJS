@@ -1,3 +1,5 @@
+# Ongoing project
+
 ## Lancement du projet
 
 ### - Pas de bundler utilisé il suffit de lancer index.html via un serveur web 
