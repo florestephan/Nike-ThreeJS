@@ -1,0 +1,1 @@
+*{margin:0;padding:0}html,body{background:#000}.container{height:700vh}.canvas__container{overflow:hidden}.canvas__container .webgl{position:fixed;top:0;left:0;outline:none;transform:translateY(-100%)}.canvas__container .webgl.active{transform:translateY(0);transition:transform 1s ease-out}/*# sourceMappingURL=style.css.map */

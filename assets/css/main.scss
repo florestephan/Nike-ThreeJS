@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: black;
+}
+
+.container {
+  height: 700vh;
+}
+
+.canvas__container {
+  overflow: hidden;
+
+  .webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    transform: translateY(-100%);
+
+
+    &.active {
+      transform: translateY(0);
+      transition: transform 1s ease-out;
+    }
+  }
+}
